@@ -78,7 +78,7 @@ class CustomerSupport:
 
 
 # create the application
-app = CustomerSupport(RandomOrderingStrategy())
+app = CustomerSupport(FILOOrderingStrategy())
 
 # register a few tickets
 app.create_ticket("John Smith", "My computer makes strange sounds!")
